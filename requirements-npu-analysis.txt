@@ -1,0 +1,12 @@
+# Install the recorded compatible torch/torch_npu/CANN stack separately.
+# These pins document the sensitivity/crossover analysis environment.
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.13.1
+scikit-learn==1.9.0
+openpyxl>=3.1,<4
+threadpoolctl>=3.2
+matplotlib>=3.8
+pytest>=8
+flit_core>=3.2,<4
+# Install bundled RTDL with --no-deps, to avoid replacing the NPU torch build.

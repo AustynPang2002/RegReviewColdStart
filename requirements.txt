@@ -1,0 +1,10 @@
+torch>=2.2
+numpy>=1.26
+pandas>=2.2
+openpyxl>=3.1
+scikit-learn>=1.5
+rtdl_revisiting_models==0.0.2
+pytest>=8
+scipy>=1.11
+threadpoolctl>=3.2
+matplotlib>=3.8

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript; publication details are not yet available."
+title: "RegReviewColdStart: final research code"
+type: software
+version: "2026.10.29"
+date-released: 2026-10-29
+authors:
+  - family-names: Fan
+    given-names: Wenjing
+  - family-names: Pang
+    given-names: Hao
+  - family-names: Jiang
+    given-names: Shan
+  - family-names: Li
+    given-names: Hongying
+  - family-names: Tang
+    given-names: Pengcheng
+  - family-names: Sun
+    given-names: Huifeng
+  - family-names: Tesema
+    given-names: Fiseha Berhanu
+abstract: "Retrospective drug registration review prediction with competing risks, temporal cohorts and name-cold evaluation."

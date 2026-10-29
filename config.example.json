@@ -1,0 +1,46 @@
+{
+  "archive": "data/private/registration_records.zip",
+  "member": "研发注册/中国申报/药品注册受理号浏览_整理.xlsx",
+  "train_end": "2020-12-31",
+  "val_end": "2022-12-31",
+  "test_end": "2024-12-31",
+  "observation_end": null,
+  "bin_days": 90,
+  "bins": 20,
+  "history_half_life_days": 730,
+  "seed": 42,
+  "cohort": "production_import",
+  "event_map": {
+    "批准生产": 1,
+    "批准进口": 1,
+    "不通过": 2,
+    "企业主动撤回": 3,
+    "退审": 3,
+    "终止审批程序": 3
+  },
+  "pending_values": [
+    "",
+    "暂无结论",
+    "未知"
+  ],
+  "categorical_features": [
+    "剂型",
+    "药品类型（CDE）",
+    "注册分类（CDE）",
+    "申请类型（CDE）",
+    "申请事项"
+  ],
+  "text_features": [
+    "药品名称"
+  ],
+  "extra_text_features_disabled": [
+    "适应症",
+    "标准规格",
+    "创新类型"
+  ],
+  "cause_names": [
+    "获准生产或进口",
+    "不通过",
+    "撤回退审或终止"
+  ]
+}
